@@ -1,5 +1,5 @@
 # plato-silverstripe-homeslides
-Plato's Home Slides module for the base installer.
+Plato's Home Slides module for the base installer. Please see requirments before installing.
 
 ### Requirements
 + SilverStripe 3.1.*
