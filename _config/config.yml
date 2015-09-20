@@ -1,0 +1,15 @@
+---
+Name: plato-silverstripe-homeslides
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+HomePage:
+  extensions:
+    - HomePageExtension
+  SlideEffect: 'fade'
+  SlideSpeed: 500
+  SlideTimeout: 4000
+HomePage_Controller:
+  extensions:
+    - HomePage_ControllerExtension

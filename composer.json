@@ -1,0 +1,24 @@
+{
+  "name": "plato-creative/plato-silverstripe-homeslides",
+  "description": "Plato's Home Slides module for the base installer",
+  "type": "silverstripe-module",
+  "homepage": "https://github.com/PlatoCreative/plato-silverstripe-homeslides",
+  "keywords": ["silverstripe", "slides", "home", "plato"],
+  "authors": [
+    {
+      "name": "Plato Creative",
+      "email": "web@platocreative.co.nz"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/PlatoCreative/plato-silverstripe-homeslides/issues"
+  },
+  "require": {
+    "silverstripe/framework": "3.1.*",
+    "silverstripe/cms": "3.1.*",
+    "undefinedoffset/sortablegridfield": "dev-master"
+  },
+  "extra": {
+    "installer-name": "plato-homeslides"
+  }
+}
