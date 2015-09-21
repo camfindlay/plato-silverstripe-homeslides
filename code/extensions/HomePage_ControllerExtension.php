@@ -11,9 +11,9 @@ class HomePage_ControllerExtension extends DataExtension
      */
     public function onAfterInit()
     {
-        Requirements::css('plato-silverstripe-homeslides/css/homeslides.css');
-        Requirements::javascript(FRAMEWORK_DIR .'/thirdparty/jquery/jquery.js');
-        Requirements::javascript(HOMESLIDES_DIR .'/js/jquery.cycle2.min.js');
+        Requirements::css(HOMESLIDES_DIR . '/css/homeslides.css');
+        Requirements::javascript(FRAMEWORK_DIR . '/thirdparty/jquery/jquery.js');
+        Requirements::javascript(HOMESLIDES_DIR . '/js/jquery.cycle2.min.js');
     }
 
 }
