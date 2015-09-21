@@ -6,6 +6,7 @@
         data-cycle-timeout="{$SlideTimeout}"
         data-cycle-slides="> .home-slide"
         data-cycle-pager=".home-slides-pager"
+        data-cycle-swipe=true
         >
     <% loop HomeSlides.Exclude("Status", "0") %>
         <div class="home-slide" data-interchange="
